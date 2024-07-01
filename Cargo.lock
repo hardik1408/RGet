@@ -308,24 +308,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "524cbf6897b527295dff137cec09ecf3a05f4fddffd7dfcd1585403449e74198"
 
 [[package]]
-name = "duma"
-version = "0.2.0"
-dependencies = [
- "assert_cmd",
- "assert_fs",
- "clap",
- "console 0.13.0",
- "failure",
- "ftp",
- "indicatif",
- "predicates",
- "reqwest",
- "threadpool",
- "tiny_http",
- "url 1.7.2",
-]
-
-[[package]]
 name = "encode_unicode"
 version = "0.3.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1212,6 +1194,24 @@ dependencies = [
  "wasm-bindgen-futures",
  "web-sys",
  "winreg",
+]
+
+[[package]]
+name = "rget"
+version = "0.2.0"
+dependencies = [
+ "assert_cmd",
+ "assert_fs",
+ "clap",
+ "console 0.13.0",
+ "failure",
+ "ftp",
+ "indicatif",
+ "predicates",
+ "reqwest",
+ "threadpool",
+ "tiny_http",
+ "url 1.7.2",
 ]
 
 [[package]]
